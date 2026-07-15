@@ -103,13 +103,16 @@ Adicionalmente, el candidato puede proponer e implementar validaciones complemen
     ```
     Ejemplo: `juan-garcia`
 
- 3. Desarrollar la prueba sobre esa rama.
+3. Desarrollar la prueba sobre esa rama.
 
- 4. Al finalizar, hacer push de la rama al repositorio:
-    ```
-    git push origin <nombre-apellido>
-    ```
+4. La solución debe incluir como mínimo los siguientes entregables:
 
- No se deben hacer merges a `main` o `dev`. La revisión se realizará directamente sobre cada rama.
+   - Notebook (.ipynb) completamente ejecutable.
+   - Base de datos SQLite (platts.db) generada durante la ejecución de la solución.
+   - Cualquier archivo adicional requerido para ejecutar la solución.
+
+5. Publicar los cambios y entregables en la rama creada dentro del repositorio.
+
+No se deben hacer merges a `main` o `dev`. La revisión se realizará directamente sobre cada rama.
 
  ---
